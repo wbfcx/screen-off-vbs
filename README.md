@@ -26,7 +26,7 @@
 - Windows 11
 
 ## 源码
-
+```vbscript
 Set sh = CreateObject("WScript.Shell")
 Set fso = CreateObject("Scripting.FileSystemObject")
 
@@ -50,7 +50,7 @@ sh.Run "powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -F
 
 On Error Resume Next
 fso.DeleteFile ps, True
-
+```
 ## 下载
 
 直接下载仓库中的 `熄屏.vbs` 即可使用。
