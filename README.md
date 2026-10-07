@@ -1,4 +1,5 @@
 # screen-off-vbs
+# 杂货铺 #001
 # Windows 立即熄屏
 
 一个非常简单的 Windows 熄屏小工具。
